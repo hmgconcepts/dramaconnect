@@ -13,8 +13,8 @@
     "__DC_PRIMARY_COLOR__",
     "__DC_KEYWORDS__"
   ],
-  "entryCount": 112,
-  "totalBytes": 1839096,
+  "entryCount": 114,
+  "totalBytes": 1938045,
   "entries": [
     {
       "path": ".github/workflows/auto-restore.yml",
@@ -107,6 +107,12 @@
       "encoding": "binary"
     },
     {
+      "path": "assets/js/assistant.js",
+      "bytes": 37337,
+      "sha256": "4f660473a53b61de77dcd307d65f37c173bb58e700cc30fffaec0358ca817823",
+      "encoding": "utf8"
+    },
+    {
       "path": "assets/js/auth.js",
       "bytes": 5034,
       "sha256": "02391f19e9215d4f7ec00b6cb49607f27d744f8ad03d2aa10c69ec14e602a72c",
@@ -167,6 +173,12 @@
       "encoding": "utf8"
     },
     {
+      "path": "assets/js/page-guide.js",
+      "bytes": 54171,
+      "sha256": "4e826d98c8bcea80246be42cf62f14476ea8db49b03813f52507db783966c77f",
+      "encoding": "utf8"
+    },
+    {
       "path": "assets/js/platform-management.js",
       "bytes": 9238,
       "sha256": "72b2caf0aee57c26ac595a3641ad2828b6aff4df2168ee5f4618e56d6ba90eb4",
@@ -192,8 +204,8 @@
     },
     {
       "path": "database/complete-schema.sql",
-      "bytes": 125874,
-      "sha256": "a29e551e0ff2d4658b124fbef3e7797e8228380efb0a51111af3f22b08c372c1",
+      "bytes": 126418,
+      "sha256": "cb07131920692ab84453961cc12f08909286fa5044d15750352bcb174d7b3846",
       "encoding": "utf8"
     },
     {
@@ -210,8 +222,8 @@
     },
     {
       "path": "database/platform_management.sql",
-      "bytes": 30567,
-      "sha256": "8c62dc372c5437eaaa2439fdf0b6a6d35f7f498d164e16a5dad57d83ac682964",
+      "bytes": 31111,
+      "sha256": "0cf7d57d2f7269caa9281fcc467d417f27c3743baa5948f683be2cd0db6b2ea4",
       "encoding": "utf8"
     },
     {
@@ -258,8 +270,8 @@
     },
     {
       "path": "docs/BACKUP_AND_RECOVERY.md",
-      "bytes": 16150,
-      "sha256": "0089b5693aada491d9d1ab1f8e0c870b5a6ea9b5cde59bcc1207f0e337c41a9d",
+      "bytes": 16117,
+      "sha256": "3b920c2560d341bbf79951280bfd61b858ed8853faeb9bf39dcfc9203e0280ff",
       "encoding": "utf8"
     },
     {
@@ -277,7 +289,7 @@
     {
       "path": "docs/DISASTER-RECOVERY-RUNBOOK.md",
       "bytes": 14606,
-      "sha256": "0da828a9df78114d7ff79188cf3b22812985a1de3c183a00b694d672a6233815",
+      "sha256": "9371879809cd3a22993d8bfaf89f869d211ab5877177e45fe1220004a9c49c5c",
       "encoding": "utf8"
     },
     {
@@ -288,14 +300,14 @@
     },
     {
       "path": "docs/FEATURES.md",
-      "bytes": 37209,
-      "sha256": "7ed5aa542cb154060ed3829b902d14949c5250485bfea7728cff5e316958b143",
+      "bytes": 41126,
+      "sha256": "3c3d44ff64d5f188bb964174f3118649274a2f84b54d232f57ffbab5ae24cb88",
       "encoding": "utf8"
     },
     {
       "path": "docs/GOOGLE-DRIVE-SYNC-GUIDE.md",
       "bytes": 35102,
-      "sha256": "03c1a14f1a7f62952f618c934e243de043aa0c2675561538ba66fa51fb90692f",
+      "sha256": "25a43f1d4de3dfcdf4f19d30da581dee26e2c6491cc8380916797a4c9a7b5a80",
       "encoding": "utf8"
     },
     {
@@ -312,8 +324,8 @@
     },
     {
       "path": "docs/RESILIENCE_RUNBOOK.md",
-      "bytes": 14697,
-      "sha256": "e622f8fa60c4dcb3d93a72c312df6cc7a8c5fd8acdcad63ce9cefffc4d7ecbb6",
+      "bytes": 14713,
+      "sha256": "c60f578578bd78eb6c7d989e73fd2c7dd84babeebe343db5c208dde87520db9b",
       "encoding": "utf8"
     },
     {
@@ -324,20 +336,20 @@
     },
     {
       "path": "docs/SETUP_CHECKLIST.md",
-      "bytes": 6728,
-      "sha256": "487002a24acffb7d5f27d83c8e49c145bf98ff5c809cb1d53219801c3f01c6c4",
+      "bytes": 6866,
+      "sha256": "61987823250d93fd659cc9c5c1e6bb98e11da863a69abb1ad781418a6063ca7c",
       "encoding": "utf8"
     },
     {
       "path": "docs/SUPABASE_FREE_TIER_PROTECTION.md",
       "bytes": 39926,
-      "sha256": "17272e22a7b0242b1a4ff368cabc475f055d29b14afdaaa154f403d10a386962",
+      "sha256": "a5cd90fc79781685d4115f1aba170831b2637385f80b43adec30c431a84be2d1",
       "encoding": "utf8"
     },
     {
       "path": "docs/USER_GUIDE.md",
-      "bytes": 5797,
-      "sha256": "d79da981b3935fda443037181a6b4feabf091c7bfa12203ee30c054fd5830884",
+      "bytes": 6868,
+      "sha256": "9be4cd051b3e145a1b7fe6be0be171aeaba8a8bdc93907dc47f0a6ab3f3e6eca",
       "encoding": "utf8"
     },
     {
@@ -360,176 +372,176 @@
     },
     {
       "path": "pages/activity.html",
-      "bytes": 3450,
-      "sha256": "1a36657b0e84f47f44b2c4a26136abf7119334edab29ac075e47622c8c9a72f9",
+      "bytes": 3551,
+      "sha256": "43e10ede84088c94104623e7b36727b2005820faa377d6e045e97f64a75dc9ce",
       "encoding": "utf8"
     },
     {
       "path": "pages/admin-data.html",
-      "bytes": 32029,
-      "sha256": "e0a22830653d11ee403de53791dbadbef3d28fde0f2e86c4faecc5ae7af38efd",
+      "bytes": 32436,
+      "sha256": "4a211651bdd5ed1a279ab392dd232714f9e0bc335fecaa8cf8f2f96c27ec8b7f",
       "encoding": "utf8"
     },
     {
       "path": "pages/analytics.html",
-      "bytes": 7550,
-      "sha256": "fa72e74de2a11c7c041d908f34d01c2bdda8e7016c28163c443c957b00c8b943",
+      "bytes": 7651,
+      "sha256": "392fb4aac9f47f96ee5746250ea5baaa9d8e2b4acf44d0a39442f1af0f91874f",
       "encoding": "utf8"
     },
     {
       "path": "pages/announcements.html",
-      "bytes": 5089,
-      "sha256": "b37783b970473de85d08af0bbe774a342ce914c86a333466469dbc116cbd39ae",
+      "bytes": 5190,
+      "sha256": "53354a3cc8d003e983abf911f3a871b9d3e96bf0ae571f2f4643de3d4dc81041",
       "encoding": "utf8"
     },
     {
       "path": "pages/attendance.html",
-      "bytes": 15690,
-      "sha256": "c806974b8658fbe736a61400afe2e1d9b8e1ecd49c466914c7512999e04139af",
+      "bytes": 15791,
+      "sha256": "65698bc65a2a0f83b3f2471c2b87618cd0829c9f27f46bbaa3b7622aa5c3a4c6",
       "encoding": "utf8"
     },
     {
       "path": "pages/birthdays.html",
-      "bytes": 5658,
-      "sha256": "4ddffdc43badf02d923d22786d6be23c8de1df0dc4ce536a00f24e43f1028bda",
+      "bytes": 5759,
+      "sha256": "0b6d9de0a69301a17d08784c7b6fec0ad9347ed38ff35d6d89492a537ebf62a1",
       "encoding": "utf8"
     },
     {
       "path": "pages/budgets.html",
-      "bytes": 5642,
-      "sha256": "0ae2865a02760756eb151660385146f5ed05576a04842b9d8c5824bfe6fc8708",
+      "bytes": 5743,
+      "sha256": "20c16ec009490d1c21a08db6085a97ffb6872b85ccf629ba1e25a96ad78fc119",
       "encoding": "utf8"
     },
     {
       "path": "pages/casting.html",
-      "bytes": 6707,
-      "sha256": "738fa93eab5bb18ffb4444ad40f6d213188ed6f771ac6f263a9129f50ab53b86",
+      "bytes": 6808,
+      "sha256": "7a37452ad0337c1a6e739d3467d36bb9eebd51805d08c0d8da8304e2441aca9e",
       "encoding": "utf8"
     },
     {
       "path": "pages/dashboard.html",
-      "bytes": 11433,
-      "sha256": "c4040bedea5d42658001ee287947caf38b894c41abf203c57fd292d4de6e8156",
+      "bytes": 11534,
+      "sha256": "5abe7fcd6444d9d7b58c93b826074d889d1bbbdca194231d6e52602993840a07",
       "encoding": "utf8"
     },
     {
       "path": "pages/directory.html",
-      "bytes": 6517,
-      "sha256": "6f40b9e044aad05fc8eb4936ba089bc9f0842e3659dfc0e9a1c5384738bdde66",
+      "bytes": 6618,
+      "sha256": "158693e02ed500c42daf42254c8502973729224173b7b2c2af84bbeebc55bbf1",
       "encoding": "utf8"
     },
     {
       "path": "pages/events.html",
-      "bytes": 8954,
-      "sha256": "33f915bd1e3cee7f9557ff71076b7c3fe0a73c0598c267e2f1e9c06c484ac07e",
+      "bytes": 9055,
+      "sha256": "d28ec2bf26390ba569a6c06db389826918d06eee65b89fe7a5b8787b6a4ac98d",
       "encoding": "utf8"
     },
     {
       "path": "pages/finance.html",
-      "bytes": 7341,
-      "sha256": "39e1f0b2641ec69f7706e1fe43cb50b4ac4606db4dbb23394f3e417fbb16f1c0",
+      "bytes": 7442,
+      "sha256": "94c1f9aff0a983618b0c4ebec5ee5b18c48746a3096e3b6ec3ec1626d5bdb4ac",
       "encoding": "utf8"
     },
     {
       "path": "pages/gallery.html",
-      "bytes": 12180,
-      "sha256": "a506c50caa052422d8882c6fa906ad39d7ed7bed6c2f9c0a1947bfec7ff8e0c4",
+      "bytes": 12281,
+      "sha256": "a359119afe71b530f0a3806c9bb49b7eff06d5bc48d621d4733395ea93a51e49",
       "encoding": "utf8"
     },
     {
       "path": "pages/help.html",
-      "bytes": 5096,
-      "sha256": "ea36cce0988ec7a0800acb2745ff2ea4a63b07c6453ad4a19c618de8a6fe1154",
+      "bytes": 27707,
+      "sha256": "e7c4ece53efb1607f6dc20dc0cfdbe69b1c0fb678146fa83d70165ae24912be3",
       "encoding": "utf8"
     },
     {
       "path": "pages/home.html",
-      "bytes": 9783,
-      "sha256": "7a785d4aee5096feb791b8515b2609307bde3fb65a09aba48213bb8715d1fdf0",
+      "bytes": 9884,
+      "sha256": "7bb107670d3c0e3528f4af1513809150a1453485753a30fff0e62c25e7213c95",
       "encoding": "utf8"
     },
     {
       "path": "pages/idcard.html",
-      "bytes": 7789,
-      "sha256": "3c013b188facbb80379c229bc47df39a583d7ef225e638391ab766476c780a38",
+      "bytes": 7890,
+      "sha256": "ffc3b5004f362f461c27277f9c271c28f48b9a4520e88adf86fb04f7b9a2d369",
       "encoding": "utf8"
     },
     {
       "path": "pages/inbox.html",
-      "bytes": 9087,
-      "sha256": "0b393c596c1aa06aa29dfad52e520dd51a63e1239bde620f0d6873df4e0ec244",
+      "bytes": 9188,
+      "sha256": "47a12985d5181cd10642d52aa57a321c31aa5e74bcbfbea31b8b4eb23ce7b49f",
       "encoding": "utf8"
     },
     {
       "path": "pages/inventory.html",
-      "bytes": 9201,
-      "sha256": "eca671c8b19eb2eaa22148499a6afe16d5ba47142de593c32f375b887140afaf",
+      "bytes": 9302,
+      "sha256": "a137de69b805f00f69ad1299b5bd479101d9d5756f42495480fb20dc02783a08",
       "encoding": "utf8"
     },
     {
       "path": "pages/members.html",
-      "bytes": 27317,
-      "sha256": "100d343ec1f8db77e6105157b48a9274ea66a5348cda55146126c2193fcdf1e7",
+      "bytes": 22535,
+      "sha256": "d4889ddee37833813e870bb92abef8a588d9818ef2791140d45e97c1126da309",
       "encoding": "utf8"
     },
     {
       "path": "pages/messaging.html",
-      "bytes": 12645,
-      "sha256": "c86507e991bfc1f2a76cf1cc436af6c2d5af9866ac508ee7ef9a041e9066d458",
+      "bytes": 12746,
+      "sha256": "2a0c891135e203a6701848dbd085de7c2702ccf2c80fc30c41e14a2b0c73a137",
       "encoding": "utf8"
     },
     {
       "path": "pages/myunit.html",
-      "bytes": 7582,
-      "sha256": "e4b20d0f1f6203423c37ef37379622e246e334adb2c3df89589d987d4b8e04b9",
+      "bytes": 7683,
+      "sha256": "3f3b8ee4af7bd3d98f7ab3830441a6507932dc2cef8dc719b04a4c3227043db0",
       "encoding": "utf8"
     },
     {
       "path": "pages/platform-health.html",
-      "bytes": 12823,
-      "sha256": "dd2fc916cb687590c56aaa629567506926a09a35e8cd1ae0f4c80755d0b53b69",
+      "bytes": 13811,
+      "sha256": "339814970620c4548d48aef304eedecfc7969bc7860aa18e4b0d25dfa02d9255",
       "encoding": "utf8"
     },
     {
       "path": "pages/polls.html",
-      "bytes": 8057,
-      "sha256": "d01669f9af2e4407b7ee5fad8cfc7889b2c22640f05982cdc03ec8b555eaba8b",
+      "bytes": 8158,
+      "sha256": "12bb690f950367a5579c093e6a7e379dff3f544211575bcf158b8142e8b948e2",
       "encoding": "utf8"
     },
     {
       "path": "pages/portfolio.html",
-      "bytes": 7515,
-      "sha256": "0b01ba61db61fc534719b2659b8ed74f7f2131062921043cb076fe364908d466",
+      "bytes": 7616,
+      "sha256": "13e1d3c82fd73fa5f38fbe33670bc6d661caa586e6319e743009d1fc0c791607",
       "encoding": "utf8"
     },
     {
       "path": "pages/productions.html",
-      "bytes": 6926,
-      "sha256": "358b32f7f203b65bba04d91794269f150f1776b78cb57344b5c50fa8e91943d3",
+      "bytes": 7027,
+      "sha256": "cef4706ad538fa803b2fd6056e1cdafd1f05d171714fa055a4b19580db028ee7",
       "encoding": "utf8"
     },
     {
       "path": "pages/profile.html",
-      "bytes": 19061,
-      "sha256": "a48c50ac14691965f43f058fb19e9b83547621410795920e092180987a1d0832",
+      "bytes": 19162,
+      "sha256": "325fdee234a84f89ad4e91722c1e79623e5e0bd474e7250ef41ad7c27d4ecb3d",
       "encoding": "utf8"
     },
     {
       "path": "pages/rehearsals.html",
-      "bytes": 5656,
-      "sha256": "ad64e4c290a428485ef5a0684945ca40ae44731dfed070a1463213b80af3d6cb",
+      "bytes": 5757,
+      "sha256": "6640d2e6c0c105dfbcc2fe7e64df42c929493c1d37c8785a31a69ef9d40c00c8",
       "encoding": "utf8"
     },
     {
       "path": "pages/reminders.html",
-      "bytes": 9205,
-      "sha256": "3dd46dd79da682a02cccbe8ce44bdc7ce6d458d2b11051270025564a86739e05",
+      "bytes": 9306,
+      "sha256": "14632735e595827eb3108da738b99d4c1cdbab74ef04633ee2b8965d77924cca",
       "encoding": "utf8"
     },
     {
       "path": "pages/reports.html",
-      "bytes": 6504,
-      "sha256": "e0a1959285f7ea885bf7d9483da8430a9c750f6a3558659927d2bf06b8718a91",
+      "bytes": 6605,
+      "sha256": "cf7c341b1168d1e35bfae5e863b1cea633b52d84398cf90be535fe5c2b23ea69",
       "encoding": "utf8"
     },
     {
@@ -540,50 +552,50 @@
     },
     {
       "path": "pages/resources.html",
-      "bytes": 7413,
-      "sha256": "3bc90df16ecd9274ff59076d1b38377b5a9a19275029dbffc7b39e504ab88d45",
+      "bytes": 7514,
+      "sha256": "2b985714cc2143c3703273402be63f660b1bf703b9715d1c64a66d68c778322e",
       "encoding": "utf8"
     },
     {
       "path": "pages/roles-status.html",
-      "bytes": 9351,
-      "sha256": "4f07bf573a916d8c0086d15a8810a7abc7654928247c51f4226a545cb67c2288",
+      "bytes": 9452,
+      "sha256": "be8ec1ccc384984f4d3a59d83b6cc2824079f7f3d5758dd1fc912e98131cd545",
       "encoding": "utf8"
     },
     {
       "path": "pages/settings.html",
-      "bytes": 41102,
-      "sha256": "9e7f7531507e8f11926b3e633d369d6ecc678402861db3b3a39946702785f94f",
+      "bytes": 19705,
+      "sha256": "bab1005d48140ef361386010e9180f33e557dd0037967e1665b16aaf0f23a3c6",
       "encoding": "utf8"
     },
     {
       "path": "pages/site-license.html",
-      "bytes": 9983,
-      "sha256": "6f91f19d3c62760eb2fd9702944f53b9c55feda8def05828e17c73ce2a8aaff4",
+      "bytes": 10084,
+      "sha256": "d3bcd60f3d388e7b7d5e4caa4a8eebba0fa9a01486297e0da83ca694affc93e3",
       "encoding": "utf8"
     },
     {
       "path": "pages/storage-manager.html",
-      "bytes": 11504,
-      "sha256": "e2b9f1503e9c0b407455944abc5fdac75334ca72ad91cfedfe46cfd8416e2876",
+      "bytes": 11605,
+      "sha256": "8222e1d035dfdaaa348aaed08484bdc67096601683466651e8729b0d8b1e462c",
       "encoding": "utf8"
     },
     {
       "path": "pages/suggestions.html",
-      "bytes": 6675,
-      "sha256": "ce8a6b6f21fcb60b46c8b8940be0fb77c50598e6b9f05d981d3187627fb995b7",
+      "bytes": 6776,
+      "sha256": "67717f7f193531821fa89234635a14b9cbe4613e3745ffbc773c5b4fbe1fa823",
       "encoding": "utf8"
     },
     {
       "path": "pages/tasks.html",
-      "bytes": 9373,
-      "sha256": "4bd4544cb07f1334d9ebdff04ac9f675dfc2b94df48eb353767ebc2fa6e1c8c4",
+      "bytes": 9474,
+      "sha256": "61a23b3b794042d06617100868c4ca8b5e484344b4d2726c3d060d7216265419",
       "encoding": "utf8"
     },
     {
       "path": "README.md",
-      "bytes": 18306,
-      "sha256": "b7bdc9efee798450d16d967c21633591ec6df212fdd0f654bf8c0825027746df",
+      "bytes": 18592,
+      "sha256": "156258c2d6e414a7914465e9db4c642fee32e7805d9ba6d7d7ddbdd590e0e8d4",
       "encoding": "utf8"
     },
     {
