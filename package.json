@@ -1,0 +1,22 @@
+{
+  "name": "dramaconnect-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone browser ZIP generator for branded DramaConnect v14 deployments.",
+  "scripts": {
+    "build:template": "node scripts/build-template.mjs",
+    "test": "node tests/generator.test.mjs",
+    "test:browser": "node tests/browser.test.mjs",
+    "test:fixtures": "node tests/fixtures.test.mjs"
+  },
+  "dependencies": {
+    "jszip": "3.10.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.10",
+    "esbuild": "0.25.9",
+    "jsdom": "26.1.0",
+    "playwright": "^1.55.0"
+  }
+}
