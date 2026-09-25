@@ -21,7 +21,7 @@ const CONFIG = {
     SUPABASE_KEY: '__SUPABASE_ANON_KEY__',
 
     APP_NAME: '__DC_APP_NAME__',
-    APP_VERSION: 'v14.0',
+    APP_VERSION: 'v14.1',
     PROVINCE: '__DC_PROVINCE__',
     CURRENCY: '__DC_CURRENCY__',
 
