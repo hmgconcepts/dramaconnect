@@ -29,7 +29,7 @@ parsed.window.close();
 
 // Every manifest entry must exist and exactly match its SHA-256/byte contract.
 assert.equal(manifest.format, 'dramaconnect-generator-template');
-assert.equal(manifest.release, '14.0');
+assert.equal(manifest.release, '14.1');
 assert.equal(manifest.entries.length, manifest.entryCount);
 assert.ok(manifest.entryCount >= 100, 'complete template file count');
 for (const entry of manifest.entries) {
@@ -92,7 +92,7 @@ for (const entry of manifest.entries) {
   if (entry.path === 'database/complete-schema.sql') generatedSql = output;
   zipRoot.file(entry.path, output, { binary: typeof output !== 'string' });
 }
-zipRoot.file('generated-site.json', JSON.stringify({ format:'dramaconnect-generated-site', templateRelease:'14.0' }));
+zipRoot.file('generated-site.json', JSON.stringify({ format:'dramaconnect-generated-site', templateRelease:'14.1' }));
 
 // --- Brand neutrality: the canonical template must be tokenised, and every token
 // --- must be resolved by generation. A generated site may never carry the source

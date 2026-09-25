@@ -177,7 +177,7 @@ const manifest = {
   format: 'dramaconnect-generator-template',
   formatVersion: 2,
   template: 'DramaConnect',
-  release: '14.0',
+  release: '14.1',
   sentinels: ALL_SENTINELS,
   entryCount: entries.length,
   totalBytes: entries.reduce((sum, entry) => sum + entry.bytes, 0),

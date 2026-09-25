@@ -14,8 +14,12 @@ try {
   const response = await page.goto(baseUrl, { waitUntil: 'networkidle' });
   assert.equal(response.status(), 200);
   await page.waitForFunction(() => document.getElementById('template-status')?.textContent.includes('canonical files ready'));
-  assert.match(await page.locator('#template-status').textContent(), /109 canonical files ready/);
+  const manifest = JSON.parse(await fs.readFile(new URL('../templates/dramaconnect/_template-manifest.json', import.meta.url), 'utf8'));
+  assert.match(await page.locator('#template-status').textContent(), new RegExp(`${manifest.entryCount} canonical files ready`));
 
+  // Organisation fields are intentionally blank (brand-neutral generator), so fill them.
+  await page.locator('#org-name').fill('Browser Test Drama Ministry');
+  await page.locator('#province').fill('Browser Test Region');
   await page.locator('#next-btn').click();
   assert.equal(await page.locator('[data-panel="1"]').isVisible(), true);
   await page.locator('#primary-color-text').fill('#1849a9');
@@ -42,7 +46,7 @@ try {
   const downloadPromise = page.waitForEvent('download', { timeout: 120_000 });
   await page.locator('#generate-btn').click();
   const download = await downloadPromise;
-  assert.equal(download.suggestedFilename(), 'dramaconnect-v14.0.zip');
+  assert.equal(download.suggestedFilename(), 'dramaconnect-v14.1.zip');
   const downloadPath = await download.path();
   const bytes = await fs.readFile(downloadPath);
   const zip = await JSZip.loadAsync(bytes);

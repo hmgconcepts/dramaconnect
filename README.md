@@ -1,6 +1,6 @@
 # DramaConnect Deployment Generator
 
-A standalone browser generator for branded DramaConnect v14 deployment ZIPs. It uses the validated DramaConnect application release as a canonical, brand-neutral template and preserves its directory structure under a configurable ZIP root.
+A standalone browser generator for branded DramaConnect v14.1 deployment ZIPs. It uses the validated DramaConnect application release as a canonical, brand-neutral template and preserves its directory structure under a configurable ZIP root.
 
 ## Run it
 
@@ -23,7 +23,7 @@ Open `http://localhost:4173`, complete all five steps, validate, and select **Ge
 - subscription expiry, grace, renewal/support links and optional external registry;
 - cumulative SQL seed state for branding, Drive and licensing.
 
-The output retains all 37 app pages, six dedicated administration workspaces, 25-table sealed portability, verified Drive upload/download checks, backup leases/history/retention, private vault, unattended encrypted recovery tooling, independent free-tier activity paths and `database/complete-schema.sql`.
+The output retains all 43 app pages (including ID cards with scannable Code 128 + QR, public card verification, programme registration links with insights, calendar, duty roster and pastoral care), six dedicated administration workspaces, 31-table sealed portability, 12 anti-pause layers (four GitHub workflows, a Vercel cron function and five Supabase Edge Functions), verified Drive upload/download checks, backup leases/history/retention, private vault, unattended encrypted recovery tooling, independent free-tier activity paths and `database/complete-schema.sql`.
 
 ## Integrity and output behavior
 
@@ -98,4 +98,4 @@ npm run test:browser
 npm run test:fixtures
 ```
 
-The fixture suite saves its QA archives outside the generator tree by default (`../qa-fixtures`), verifies the four generated PNG dimensions, inspects sanitized configuration and receipts, and executes both generated cumulative schemas twice.
+The fixture suite saves its QA archives in the system temp folder by default (`$TMPDIR/dramaconnect-qa-fixtures`, override with `FIXTURE_DIR`), verifies the four generated PNG dimensions, inspects sanitized configuration and receipts, and executes both generated cumulative schemas twice.
