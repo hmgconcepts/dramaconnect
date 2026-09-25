@@ -14,7 +14,7 @@
     "__DC_KEYWORDS__"
   ],
   "entryCount": 131,
-  "totalBytes": 2742288,
+  "totalBytes": 2750263,
   "entries": [
     {
       "path": ".github/workflows/auto-restore.yml",
@@ -78,8 +78,8 @@
     },
     {
       "path": "assets/css/tailwind-offline.css",
-      "bytes": 30660,
-      "sha256": "f587508fbe77b953187b857c0d9ac8415aecd2fe8c02305074fa831d7d63181f",
+      "bytes": 30675,
+      "sha256": "99f6eae724c60a178e5b92fbb9ac4f6a552e316f8bd385a581bb79109954f9c7",
       "encoding": "utf8"
     },
     {
@@ -222,8 +222,8 @@
     },
     {
       "path": "assets/js/utils.js",
-      "bytes": 13962,
-      "sha256": "3cadf57f2358a5e5e3be4bfdb2929b034cb1b2b830e56e11ceebf0bab8fca6d3",
+      "bytes": 19121,
+      "sha256": "b078a96aa90286c93a9c66503229549062d6f99a4c11d3ad54ebefb8e1e0f7fe",
       "encoding": "utf8"
     },
     {
@@ -450,8 +450,8 @@
     },
     {
       "path": "pages/attendance.html",
-      "bytes": 25408,
-      "sha256": "bb4348283117a8adc469e4b780dca2c272ee4152bd2aa87b66d53f14bc88d42d",
+      "bytes": 25525,
+      "sha256": "734511c803238e529913ca04c37eae495a79cb45186d6873b14177ad5851a344",
       "encoding": "utf8"
     },
     {
@@ -528,8 +528,8 @@
     },
     {
       "path": "pages/idcard.html",
-      "bytes": 40187,
-      "sha256": "cfc6de4ecde7312e2d23d3b6adce66400543bf9c609811de2128f6e127e7df32",
+      "bytes": 41108,
+      "sha256": "206a7f883f44feb0a9c463c1bb460650c653aee677faa0f64c5082f03b8e30da",
       "encoding": "utf8"
     },
     {
@@ -588,8 +588,8 @@
     },
     {
       "path": "pages/profile.html",
-      "bytes": 19162,
-      "sha256": "325fdee234a84f89ad4e91722c1e79623e5e0bd474e7250ef41ad7c27d4ecb3d",
+      "bytes": 20893,
+      "sha256": "b81a34a6305846389bcfc5c118555159c66ed37072486d6d84b858770fb2ead9",
       "encoding": "utf8"
     },
     {
@@ -678,8 +678,8 @@
     },
     {
       "path": "pages/verify.html",
-      "bytes": 12440,
-      "sha256": "23fea2d4d63173f130b863f363dca4846ccccce03211f98b146213f3bf7c22d7",
+      "bytes": 12470,
+      "sha256": "efda015c4bb42769a39acde46a0e48dc5073569e548064ba67eece62ccc123b6",
       "encoding": "utf8"
     },
     {
@@ -780,8 +780,8 @@
     },
     {
       "path": "sw.js",
-      "bytes": 3617,
-      "sha256": "b110c7d61770e1628d8d9f6fd04003abdb8cc22e5ab23c9b8310b67ccf227aaa",
+      "bytes": 3619,
+      "sha256": "c86a4cb40675676c7c3909be5b3b16b6c693d00233070094e417aaa35a48f6df",
       "encoding": "utf8"
     },
     {
