@@ -255,7 +255,7 @@
       format: 'dramaconnect-generated-site', formatVersion: 1, generatedAt: new Date().toISOString(),
       generator: 'DramaConnect Deployment Generator 1.0', template: state.manifest.template || 'DramaConnect', templateRelease: state.manifest.release,
       templateManifestSha256: templateDigest, applicationName: c.appName, organization: c.orgName,
-      folder: c.slug, licenseModel: c.licenseModel, archiveSchema: '14.1', productionSql: 'database/complete-schema.sql',
+      folder: c.slug, licenseModel: c.licenseModel, archiveSchema: '14.2', productionSql: 'database/complete-schema.sql',
       notices: [
         'Supabase anon/publishable keys are public identifiers constrained by Row Level Security.',
         'No service-role key, database password or OAuth client secret is required by the static app.',
@@ -295,7 +295,7 @@
         $('progress-bar').style.width = `${Math.min(99, Math.round((done / total) * 100 + metadata.percent / total))}%`;
       });
       const url = URL.createObjectURL(blob); const anchor = document.createElement('a');
-      anchor.href = url; anchor.download = `${c.slug}-v14.1.zip`; document.body.appendChild(anchor); anchor.click(); anchor.remove();
+      anchor.href = url; anchor.download = `${c.slug}-v14.2.zip`; document.body.appendChild(anchor); anchor.click(); anchor.remove();
       setTimeout(() => URL.revokeObjectURL(url), 60_000);
       progress(total, total, `Generated ${anchor.download} (${(blob.size / 1024 / 1024).toFixed(2)} MiB).`);
       $('validation-summary').className = 'validation-summary success';
@@ -314,7 +314,7 @@
       const response = await fetch(templateUrl('_template-manifest.json'), { cache:'no-store' });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const manifest = await response.json();
-      if (manifest.format !== 'dramaconnect-generator-template' || manifest.release !== '14.1' || manifest.entryCount !== manifest.entries?.length) throw new Error('Unsupported template manifest.');
+      if (manifest.format !== 'dramaconnect-generator-template' || manifest.release !== '14.2' || manifest.entryCount !== manifest.entries?.length) throw new Error('Unsupported template manifest.');
       if (!manifest.entries.every((entry) => /^[a-zA-Z0-9._/-]+$/.test(entry.path) && !entry.path.includes('..') && /^[a-f0-9]{64}$/.test(entry.sha256))) throw new Error('Unsafe template manifest entry.');
       state.manifest = manifest;
       document.querySelector('.status-dot').classList.add('ready');

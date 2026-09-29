@@ -46,7 +46,7 @@ try {
   const downloadPromise = page.waitForEvent('download', { timeout: 120_000 });
   await page.locator('#generate-btn').click();
   const download = await downloadPromise;
-  assert.equal(download.suggestedFilename(), 'dramaconnect-v14.1.zip');
+  assert.equal(download.suggestedFilename(), 'dramaconnect-v14.2.zip');
   const downloadPath = await download.path();
   const bytes = await fs.readFile(downloadPath);
   const zip = await JSZip.loadAsync(bytes);
